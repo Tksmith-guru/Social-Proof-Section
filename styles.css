@@ -1,0 +1,343 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    width: 90%;
+    height: 80%;
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont1, .cont2 {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    margin: 20px 20px;
+}
+
+.cont1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    width: 30%;
+    padding: 20px 0 20px 20px;
+    /* border: 2px solid blue; */
+}
+
+.cont1 p {
+    font-size: 18px;
+    color: hsl(303, 10%, 53%);
+    width: 90%;
+    line-height: 22px;
+}
+
+.cont2 p {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    /* border: 4px solid yellow; */
+}
+
+.cont2 .group .Rate1 img,
+.cont2 .group .Rate2 img,
+.cont2 .group .Rate3 img {
+    width: 20px;
+    height: 15px;
+}
+
+h1 {
+    font-size: 46px;
+    color: hsl(300, 43%, 22%);
+    width: 80%;
+}
+
+.cont3, .cont4, .cont5 {
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.cont3 {
+    padding: 20px 20px 20px 20px;
+    width: 20%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin: 20px 20px;
+}
+
+.cont4, .cont5 {
+    width: 20%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin: 20px 20px 0 0;
+    padding: 20px 20px 20px 20px;
+}
+
+.cont4 {
+    margin-top: 30px;
+}
+
+.cont5 {
+    margin-top: 60px;
+}
+
+.group {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid magenta; */
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.rht-align {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid mediumvioletred; */
+}
+
+.lft-align {
+    /* border: 2px solid seagreen; */
+    margin-right: 25px;
+}
+
+.head, .para {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.head {
+    color: hsl(0, 0%, 100%);
+}
+
+.para {
+    color: hsla(333, 34%, 45%, 0.868);
+}
+
+.Rate1, .Rate2, .Rate3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    /* border: 2px solid firebrick; */
+    border-radius: 8px;
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+}
+
+.Rate2 {
+    margin-left: 50px;
+}
+
+.Rate3 {
+    margin-left: 100px;
+}
+
+.img {
+    margin-right: 30px;
+}
+
+img {
+    width: 30px;
+    height: 10px;
+}
+
+.grp1, .grp2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+/* .grp1 {
+    border: 2px solid crimson;
+}
+
+.grp2 {
+    border: 2px solid goldenrod;
+} */
+
+.grp2 .para1, 
+.grp2 .para2, 
+.grp2 .para3 {
+width: 100%;
+line-height: 20px;
+color: hsl(0, 0%, 100%);
+}
+
+.grp2 .cont3 .center .lft-align img,
+.grp2 .cont4 .center .lft-align img, 
+.grp2 .cont5 .center .lft-align img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1518px) {
+    main {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+        margin: 20px;
+    }
+
+    body {
+        height: 100%;
+    }
+    
+    .grp1, .grp2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid firebrick; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .grp2 .para1,
+    .grp2 .para2,
+    .grp2 .para3 {
+        line-height: 22px;
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img img {
+        width: 100%;
+        align-self: center;
+        height: 8px;
+    }
+
+    .Rate1, .Rate2, .Rate3 {
+        width: 80%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .center {
+        width: 100%;
+        justify-content: start;
+    }
+
+    .cont1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+
+    .cont2 p {
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+
+    .cont2 .group .Rate1 img,
+    .cont2 .group .Rate2 img,
+    .cont2 .group .Rate3 img {
+        /* height: 12px; */
+        align-self: center;
+    }
+
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grp1 .cont1 .wrapper1 h1 {
+        width: 60%;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .cont1, .cont2, .cont3,
+    .cont4, .cont5 {
+        width: 80%;
+        height: 100%;
+        /* border: 2px solid gold; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0 20px 0;
+    }
+
+    .cont4, .cont5 {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .Rate2, .Rate3 {
+        margin-left: 0;
+    }
+
+    .cont1, .cont2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .cont1 p {
+        font-size: 16px;
+        width: 89%;
+    }
+
+
+}
