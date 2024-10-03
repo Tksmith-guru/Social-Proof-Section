@@ -197,7 +197,7 @@ color: hsl(0, 0%, 100%);
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 1518px) {
+@media only screen and (max-width: 1080px) {
     main {
         width: 100%;
         height: 100%;
